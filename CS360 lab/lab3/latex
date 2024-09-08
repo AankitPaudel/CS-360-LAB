@@ -1,0 +1,109 @@
+\documentclass[sigconf,authordraft]{acmart}
+% Remove 'authordraft' if it's not needed for your submission
+
+\usepackage[flushleft]{threeparttable}
+\usepackage[shortlabels]{enumitem}
+\usepackage{subfigure}
+\usepackage{epsfig}
+\usepackage{url}
+\usepackage{textcase}
+\AtBeginDocument{%
+\providecommand\BibTeX{{%
+\normalfont B\kern-0.5em{\scshape i\kern-1000.25em b}\kern-0.8em\TeX}}}
+\setcopyright{acmcopyright}
+\copyrightyear{2024}
+\acmYear{2024}
+\setcopyright{acmlicensed}
+\acmConference[SAC '23]{SAC '23: 38th ACM International Symposium on Applied
+Computing}{March 27--31, 2022}{Tallinn, Estonia}
+%acmBooktitle{Woodstock '18: ACM Symposium on Neural Gaze Detection, June 03--05, 2018,
+\acmPrice{15.00}
+\acmDOI{10.1145/1122445.1122456}
+\acmISBN{978-1-4503-9999-9/18/06}
+\begin{document}
+\title{Enser}
+\author{Ankit Paudel, Sohan Lama, Kushal Khadka}
+\affiliation{%
+\institution{Department of Computer Science, University of Idaho}
+% \streetaddress{875 Perimeter Drive}
+% \city{Moscow}
+% \state{Idaho}
+\country{}
+% \postcode{83843}
+}
+\email{your email}
+\begin{abstract}
+\textbf{Our website functions as a dynamic platform that connects the fields of STEM (science, technology, engineering, and mathematics), community service, scholarship, and service learning. These essential pillars work together to create an efficient framework that allows people and organizations to interact, cooperate, and develop with convenience. We enable users to leverage the potential of service learning to further their academic endeavors in STEM fields while bringing about positive change in their communities through the provision of carefully selected resources, interactive tools, and meaningful actions. Come along with us as we combine education, service, and community involvement to shape a better future.}
+
+\end{abstract}
+\begin{CCSXML}
+\end{CCSXML}
+\keywords{Keywords:Service Learning, Scholarships, community service, and STEM(Science, Technology, Engineering, and Mathematics)}
+\maketitle
+\section{Introduction}
+The proposed website seeks to address a notable need in the field of educational technology by providing a dedicated space for the successful integration of service learning concepts with the demands of STEM education. The foundation of this program is the idea that, as opposed to only being an adjunct to more traditional teaching methods, service learning is vital to the creation of an entire educational experience. The approach prioritizes the dual objectives of fulfilling community needs and achieving academic learning outcomes to foster a mutually beneficial relationship between students and their environment.
+
+This method is essentially the acknowledgement of the numerous benefits associated with service learning. Research on service learning has shown time and time again its benefits. These advantages include improvements in students' critical thinking, engagement, and interpersonal skills; closing the theory-practice gap by providing students with the priceless chance to apply theory in practical settings; and markedly enhancing students' social and personal development through the promotion of civic engagement and a deeper comprehension of societal issues.
+
+Since occupations in STEM provide both unique possibilities and difficulties, service learning need to be a part of STEM curriculum. With its focus on creativity, problem-solving, and analytical thinking, STEM education offers the perfect foundation for service learning initiatives that require technological solutions to pressing social concerns. Students who work on projects that have an immediate application to real-world circumstances are more motivated and dedicated to their field of study because they are able to make the connection between what they are studying and real-world difficulties.
+
+Moreover, by providing an organized framework for carrying out service learning initiatives, the suggested website fills a significant vacuum in the practices of education today. One major obstacle to the broad implementation of service learning programs has been the absence of established methods for planning, coordinating, and evaluating them. The software guarantees that service learning projects are both educationally sound and in line with community needs by automating the preparation of project syllabi and fostering communication between students, instructors, and community stakeholders. In addition to improving the efficacy and efficiency of service learning programs, this methodical approach offers a scalable model that can be customized for a variety of community and educational situations.
+
+A wider spectrum of students, especially those from underrepresented groups in STEM professions, will be able to attend service learning opportunities because of the platform's emphasis on diversity and accessibility. The website invites involvement from students who may not have previously seen service learning as a feasible component of their education by offering a vast array of projects that appeal to varying interests and skill levels. This inclusion also applies to community stakeholders, providing a forum for many communities to express their concerns and have meaningful interactions with educational institutions.
+
+The creation of this web-based platform signifies a noteworthy progression in the realm of educational technology, with the capability to convert service learning from an incidental endeavor into a fundamental component of STEM education. Through the website, students, educators, and communities may collaborate meaningfully, fostering a comprehensive approach to learning that equips students for both professional achievement and active citizenship.
+\label{ }
+
+\section{Architecture of enser}
+Enser emerges as a groundbreaking platform in the service learning arena, offering an unparalleled experience within the dynamic world of real-world engineering projects. It functions as a pivotal bridge connecting students, professors, and the wider engineering community, fostering collaboration, knowledge exchange, and skill development. The Enser website, meticulously designed as a comprehensive hub, stands as a beacon of empowerment for users in their educational journey, with the resonant slogan "SkillsynEngineer" encapsulating our commitment to nurturing a new generation of skilled engineers.
+%
+% ---- Bibliography ----
+%
+\bibliographystyle{ACM-Reference-Format}
+\section{ER Diagram}
+\begin{figure}[htbp]   
+\centering
+    \includegraphics[width=0.5\textwidth]{image.png} 
+    \caption{ ER Diagram}
+    \label{fig:er_diagram}
+\end{figure}
+
+The homepage offers an immersive entry into Enser's offerings, with distinct sections for a holistic understanding of its capabilities. A user-friendly signup process ensures a tailored onboarding experience, leading to personalized dashboards for students, professors, and community members.
+
+Students can search for projects across various engineering fields tailored to their educational level. Upon selecting a project and receiving approval from the overseeing professor, a "Project Course" tab becomes visible. This tab contains the syllabus, automatically generated by the ChatGPT API, providing a structured pathway for the project's completion.
+
+Upon approving a student's request, professors gain access to a "Project Course" tab, where they can review the syllabus generated by the ChatGPT API. This functionality streamlines the process of syllabus creation, allowing professors to focus on mentorship and guidance throughout the learning process.
+
+The community dashboard offers a platform for sharing project descriptions and timelines, fostering a collaborative environment. A comment section enables feedback on completed projects, enhancing the platform's collective knowledge base.
+
+Enser's vision extends beyond individual achievements, aspiring to create a collaborative environment where knowledge is shared and enhanced collectively. By introducing students to practical projects and fostering a community-driven atmosphere, Enser redefines the educational landscape, preparing students for future challenges and transforming them into skilled professionals.
+
+Enser stands not just as a platform but as a catalyst for growth, learning, and innovation in engineering education. By seamlessly integrating functionalities for students, professors, and the community, Enser reinforces its commitment to transforming the service learning landscape and promoting educational enrichment for all involved.This enhanced document integrates the new functionality of the dashboards into the overall narrative of Enser's mission, emphasizing its role as a transformative platform in the field of engineering education.
+
+\section{Foundation of enser}
+Enser stands as a transformative service learning platform, bridging theoretical knowledge and practical application in engineering education. It creates a dynamic collaborative environment by connecting students, professors, and the wider engineering community, facilitating knowledge exchange and skill development. Central to its mission, Enser integrates real-world engineering projects, allowing students to address community needs while applying their learning in meaningful ways.
+
+The platform features innovative functionalities, such as dynamic dashboards for different user groups and automated syllabus generation using the ChatGPT API, streamlining the educational process. Enser emphasizes inclusivity, offering diverse projects to cater to various interests and skill levels, thus broadening access to service learning. By fostering a community-driven atmosphere that values feedback and continuous improvement, Enser not only prepares students for professional challenges but also promotes civic engagement and social responsibility, laying the groundwork for a new generation of skilled, innovative engineers.
+
+
+\section{Conclusion}
+In summary, Enser is a revolutionary force in engineering education, using its cutting-edge platform to close the knowledge gap between theory and practice. Enser fosters a collaborative atmosphere where students, professors, and community stakeholders may work together to address important social challenges while gaining critical skills by fusing service learning ideas with practical engineering projects.
+
+ 
+
+Users may explore a wide choice of projects according to their interests and educational level with Enser's customizable dashboards and user-friendly design. Enser simplifies administrative duties for instructors by automating the syllabus creation process, freeing them up to concentrate on mentoring and advising. The community dashboard on the site also encourages interaction and teamwork, which improves everyone's educational experience.
+
+ 
+
+Enser, seen as a whole, is a major advancement in engineering education, training students to become technically sound professionals who are also community- and socially minded. As we look to the future, Enser's influence will continue to mold the next wave of engineers, giving them the skills and perspective required to take on the difficult problems facing our quickly evolving global community.
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{Refs}
+Furco, A. 2010. The engaged campus: Toward a comprehensive approach to public engagement. British Journal of Educational Studies, 58, 4 (2010), 375–390.
+
+Kolb, D. A. 1984. Experiential Learning: Experience as the Source of Learning and Development. Prentice-Hall, Englewood Cliffs, NJ.
+
+% More document content
+
+\end{document}
+\endinput
